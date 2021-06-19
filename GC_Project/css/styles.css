@@ -1,30 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Mate+SC&display=swap');
 *{
     box-sizing:border-box;
     margin:0;
-    padding: 0;
+    padding:0;
     background-color:white;
-}
-li a{
+    align-content:center;
+}  
+.navbar li a{
     font-family: Mate SC;
     font-weight: bold;
-    font-size: 15px;
+    font-size: small;
     Color:black;
     text-decoration:none;
-    background-color:#009999;
-    
 }
 .navbar li{
     display: inline-block;
-    padding: 30px;
-    background-color:#009999;
+    padding: 10px;
 }
 header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:30px 10%;
-    background-color:#009999;
+    padding: 5px;
+    flex-flow: row wrap;
 }
 span{
     font-family: Mate SC;
@@ -32,13 +31,56 @@ span{
     font-size:30px;
 }
 li a:hover{
-    background-color:white;
+    background-color:lightcyan;
 }
 .span1 a{
     text-decoration:none;
     color:black;
+}
+.span1 a:hover{
+    background-color:lightcyan;
+}
+.container{
+    width:60%;
+}
+.div1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px 0%;
+    column-gap: 10px;
+    justify-content:space-between;
+}
+.div2{
+    font-family: Mate SC;
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    background-color:lightgray;
+}
+.navcls li{
+    display:inline-block;
+    background-color:lightgray;
+    justify-content: space-between;
+    align-content: space-around;
+    width:100px;
+}
+.navcls li a{
+    text-decoration:none;
+    background-color:lightgray;
+    font-weight: bold;
+    justify-content: center;
+    color:black;
+    font-size:small;
+}
+.navcls li a:hover{
     background-color:#009999;
 }
-.span a:hover{
-    text-shadow: 1in;
+.div3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding:10px;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+    border: 1px solid gray;
 }
