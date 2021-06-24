@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    box-sizing: content-box;
+    margin: auto;
+    padding:auto;
+    border-width: 10px;
+    align-items: center;
+    border:10px;
+}  
+.container>div{
+    padding:10px;
+
+}
+.navbar li a{
+    font-family: Itim;
+    font-weight: bold;
+    font-size: small;
+    Color:white;
+    text-decoration:none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+.divh{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 5px;
+    flex-flow: row wrap;
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+span{
+    font-family: Itim;
+    font-weight: bold;
+    font-size:30px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.span1 a{
+    text-decoration:none;
+    color:white;
+}
+.span1 a:hover{
+    box-shadow: 10px;
+}
+.container{
+    width:60%;
+    border:2px solid gray;
+
+}
+.div1{
+   display:grid;
+   grid-template-columns: auto auto;
+   justify-content: center;
+   column-gap: 15px;
+   height: 100%;
+}
+.div2{
+    font-family: Itim;
+    display:flex;
+    justify-content:flex-start;
+    padding:10px;
+    background-color:lightgray;
+    padding:0;
+}
+.navcls li{
+    display:inline-block;
+    background-color:lightgray;
+    justify-content:center;
+    align-content:center;
+    width:100px;
+    text-decoration: none;
+    padding:0;
+}
+.navcls li a{
+    text-decoration:none;
+    background-color:lightgray;
+    font-weight: bold;
+    justify-content:center;
+    color:black;
+    font-size:small;
+}
+.navcls li a:hover{
+ text-decoration:underline;
+}
+
+.div3{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 55px;
+    column-gap: 3px;
+    justify-content:space-evenly;
+    padding:0;
+    margin:0;
+}
+figcaption{
+        font-family: Dancing Script;
+        font-weight: 900;
+        text-align: center;
+        font-size: 14px;
+}
+.ftag{
+    display:flex;
+    height:50px;
+    font-family: Itim;
+    justify-content:center;
+    align-content:center;
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.ftag>p{
+    color:white;
+    font-weight:100;
+}
+header{
+    display:flex;
+    background-color:gray;
+    height:50px;
+}
+.hnav ul li{
+    display:inline-block;
+    list-style:none;
+    padding:0 50px;
+    align-content: center;
+
+}
+.hnav ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: itim;
+}
+.hnav ul li a:hover{
+    text-decoration: underline;
+}
+.hnav ul li a img{
+width: 20px;
+height:20px;
+border-radius:100%;
+}
