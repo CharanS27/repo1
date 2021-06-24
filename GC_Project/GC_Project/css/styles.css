@@ -16,7 +16,6 @@
 }
 .navbar li a{
     font-family: Itim;
-    font-weight: bold;
     font-size: small;
     Color:white;
     text-decoration:none;
@@ -31,11 +30,10 @@
     align-items:center;
     padding: 5px;
     flex-flow: row wrap;
-    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-color:gray;
 }
 span{
     font-family: Itim;
-    font-weight: bold;
     font-size:30px;
 }
 li a:hover{
@@ -50,7 +48,6 @@ li a:hover{
 }
 .container{
     width:60%;
-    border:2px solid gray;
 
 }
 .div1{
@@ -65,24 +62,24 @@ li a:hover{
     display:flex;
     justify-content:flex-start;
     padding:10px;
-    background-color:lightgray;
+    background-color:gray;
     padding:0;
 }
 .navcls li{
     display:inline-block;
-    background-color:lightgray;
+    background-color:gray;
     justify-content:center;
     align-content:center;
     width:100px;
     text-decoration: none;
     padding:0;
+    margin:0;
 }
 .navcls li a{
     text-decoration:none;
-    background-color:lightgray;
-    font-weight: bold;
+    background-color:gray;
     justify-content:center;
-    color:black;
+    color:white;
     font-size:small;
 }
 .navcls li a:hover{
@@ -98,6 +95,7 @@ li a:hover{
     justify-content:space-evenly;
     padding:0;
     margin:0;
+    border: 1px solid gray;
 }
 figcaption{
         font-family: Dancing Script;
@@ -111,23 +109,22 @@ figcaption{
     font-family: Itim;
     justify-content:center;
     align-content:center;
-    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-color: gray;
 }
 .ftag>p{
     color:white;
-    font-weight:100;
 }
 header{
     display:flex;
     background-color:gray;
     height:50px;
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 .hnav ul li{
     display:inline-block;
     list-style:none;
-    padding:0 50px;
+    padding:0 30px;
     align-content: center;
-
 }
 .hnav ul li a{
     text-decoration:none;
@@ -138,7 +135,10 @@ header{
     text-decoration: underline;
 }
 .hnav ul li a img{
-width: 20px;
+width:20px;
 height:20px;
 border-radius:100%;
+}
+.btn{
+font-family: itim;
 }
